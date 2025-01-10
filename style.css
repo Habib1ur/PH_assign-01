@@ -300,7 +300,52 @@ nav button a {
 .vc3 p {
   width: 362.67px;
 }
-.vc3 button{
-    background: rgb(255, 194, 57);
+.vc3 button {
+  background: rgb(255, 194, 57);
 }
+
+/* Quote part start */
+.vision-quote {
+  height: 256px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.quote-text {
+  height: 96px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.quote-name {
+  height: 24px;
+  margin-top: 12px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.quote-desig {
+  height: 24px;
+  margin-top: 4px;
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Quote part end */
+
 /* vision part css end */
