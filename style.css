@@ -79,13 +79,13 @@ nav button a {
 }
 
 .banner .banner-text p {
+  height: 201px;
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
-  width: 622px;
-  height: 325px;
+  width: 616px;
   margin: 16px 0px 24px;
 }
 
@@ -117,3 +117,70 @@ nav button a {
   margin: 80px 60px 80px 0px;
 }
 /* Banner part css end */
+
+/* pillar part css start */
+
+.pillar {
+  height: 324px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+.pillar h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  height: 48px;
+}
+
+.pillar .pillar-gallery {
+  height: 244px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+.pillar-card {
+  width: 302px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.pillar-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.pillar-card-text h4 {
+  height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.pillar-card-text p {
+    width: 254px;
+  height: 72px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* pillar part css end */
