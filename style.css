@@ -307,7 +307,7 @@ nav button a {
 /* Quote part start */
 .vision-quote {
   height: 256px;
-  margin-top: 32px;
+  margin: 32px 0px 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
