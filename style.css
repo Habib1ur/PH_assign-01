@@ -203,6 +203,7 @@ nav button a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;
+  margin-bottom: 32px;
 }
 .vision-text h3 {
   height: 48px;
