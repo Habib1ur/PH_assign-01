@@ -355,60 +355,9 @@ nav button a {
 
 /* vision part css end */
 
-/* opinion part css start */
-
-.opinio {
-  height: 481px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 24px;
-}
-.opinion-text {
-  height: 48px;
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
-}
-.opinion-box {
-  height: 409px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 32px;
-  border-radius: 16px;
-  background: rgb(255, 255, 255);
-}
-.que {
-  width: 1168px;
-  height: 72px;
-  display: flex;
-  justify-content: space-between;
-  /* align-items: flex-start; */
-  padding: 24px;
-  box-sizing: border-box;
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  background: rgb(198, 228, 214);
-}
-.que h3 {
-  height: 24px;
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
-}
-
-/* opinion part css end */
-
 /* news part css start */
 .news {
   margin: 80px 0px;
-  height: 1406px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -529,8 +478,120 @@ nav button a {
   line-height: 22px;
 }
 
-.nc-2{
+.nc-2 {
   flex-direction: row-reverse;
   margin-top: 24px;
 }
 /* news part css end */
+
+/* donate part css start */
+
+.donate {
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+.d-text {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.d-text h1 {
+  height: 48px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.d-text p {
+  width: 1104px;
+  margin: auto;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.d-money {
+  width: 1071px;
+  height: 128px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+.d-m1 {
+  width: 240px;
+  height: 128px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.d-m1 h1 {
+  width: 160px;
+  height: 48px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.d-m2 {
+  background: rgb(198, 228, 214);
+}
+.d-m1:hover {
+  background: rgb(198, 228, 214);
+}
+.d-m2:hover {
+  background: rgb(0, 106, 80);
+}
+.d-input input {
+  width: 1032px;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.donate button {
+  width: 151px;
+  height: 56px;
+  padding: 17px 34px 17px 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  border: none;
+  background: rgb(0, 106, 80);
+}
+.donate button a {
+  display: flex;
+  height: 22px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+}
+/* donate part css end */
