@@ -188,7 +188,7 @@ nav button a {
 /* vision part css start */
 
 .vision {
-  margin-top: 80px 0px;
+  margin: 80px 0px;
   height: 765px;
   display: flex;
   flex-direction: column;
@@ -307,7 +307,7 @@ nav button a {
 /* Quote part start */
 .vision-quote {
   height: 256px;
-  margin-top: 32px ;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -317,7 +317,7 @@ nav button a {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-  background-image: url('assets/quote-bg.png');
+  background-image: url("assets/quote-bg.png");
   background-position: left 24px top 24px;
   background-repeat: no-repeat;
 }
@@ -353,9 +353,94 @@ nav button a {
 
 /* vision part css end */
 
-
 /* opinion part css start */
 
-
+.opinio {
+  height: 481px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.opinion-text {
+  height: 48px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.opinion-box {
+  height: 409px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.que {
+  width: 1168px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+}
+.que h3 {
+  height: 24px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
 
 /* opinion part css end */
+
+/* news part css start */
+.news {
+  height: 1406px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.news h1 {
+  height: 48px;
+  margin-bottom: 24px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.news p {
+  height: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.news-card {
+  height: 402px;
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.news-card img{
+  height: 306px;
+  border-radius: 24px;
+}
+/* news part css end */
