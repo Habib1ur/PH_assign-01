@@ -291,10 +291,12 @@ nav button a {
 }
 .vc2 button {
   background: rgb(9, 161, 92);
+  margin-top: 16px;
 }
 .vc3 {
   background: rgb(247, 235, 207);
   padding: 24px;
+  justify-content: center;
 }
 .vc3 h4,
 .vc3 p {
@@ -405,6 +407,7 @@ nav button a {
 
 /* news part css start */
 .news {
+  margin: 80px 0px;
   height: 1406px;
   display: flex;
   flex-direction: column;
@@ -430,7 +433,6 @@ nav button a {
   margin-bottom: 32px;
 }
 .news-card {
-  height: 402px;
   display: flex;
   gap: 32px;
   padding: 48px;
@@ -466,7 +468,7 @@ nav button a {
   height: 40px;
   margin: 12px 0px;
 }
-.date-time{
+.date-time {
   margin-bottom: 12px;
   height: 24px;
   display: flex;
@@ -474,7 +476,7 @@ nav button a {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.date{
+.date {
   height: 24px;
   width: 122px;
   color: rgba(14, 14, 14, 0.7);
@@ -485,7 +487,7 @@ nav button a {
   letter-spacing: 0%;
   text-align: left;
 }
-.time{
+.time {
   height: 24px;
   width: 105px;
   margin-left: 12px;
@@ -494,5 +496,41 @@ nav button a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+.news-card-text p {
+  width: 744px;
+  height: 72px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.news-card-text button {
+  width: 139px;
+  height: 48px;
+  border: none;
+  padding: 13px 26px 13px 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+}
+.news-card-text button a {
+  display: flex;
+  text-decoration: none;
+  width: 87px;
+  height: 22px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.nc-2{
+  flex-direction: row-reverse;
+  margin-top: 24px;
 }
 /* news part css end */
