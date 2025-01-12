@@ -490,7 +490,7 @@ nav button a {
   height: 464px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 32px;
 }
@@ -561,14 +561,17 @@ nav button a {
 .d-m2:hover {
   background: rgb(0, 106, 80);
 }
-.d-input input {
-  width: 1032px;
-  margin: auto;
+.d-m-i{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  padding: 20px 40px 20px 40px;
+  align-items: flex-start;
+  gap: 32px;
+}
+.d-input input {
+  width: 1032px;
+  height: 64px;
+  padding: 20px 0px;
 }
 .d-input input[placeholder] {
   height: 24px;
@@ -609,6 +612,7 @@ nav button a {
 /* newsletter part css start */
 
 .newsletter {
+  margin-top: 80px;
   height: 395px;
   display: flex;
   flex-direction: column;
