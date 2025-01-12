@@ -605,3 +605,82 @@ nav button a {
   text-decoration: none;
 }
 /* donate part css end */
+
+/* newsletter part css start */
+
+.newsletter {
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.newsletter h3 {
+  width: 622px;
+  height: 48px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.newsletter p {
+  margin-top: 16px;
+  width: 622px;
+  height: 48px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.s-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 55px;
+  margin-top: 24px;
+}
+.s-input input {
+  margin-top: 24px;
+  border: none;
+  width: 520px;
+  height: 19px;
+  padding: 18px 40px 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+}
+.s-input button {
+  border: none;
+  width: 150px;
+  height: 55px;
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+}
+.s-input button a {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+}
+.newsletter h4 {
+  margin-top: 25px;
+  width: 622px;
+  height: 19px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* newsletter part css end */
